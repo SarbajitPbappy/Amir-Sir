@@ -1,0 +1,139 @@
+Study ID,Year of Publication,Title of Study,Country / Geographic Context,Source / Venue,Primary DL Architecture,Dataset Name(s),Modality/ies in Dataset,Real-Time Capability Claimed?,Inference Speed / Latency Reported?,Clear Research Objective,Appropriate Methodology,Reproducibility,Dataset Adequately Described,Appropriate Evaluation Metrics,Comparison to Baselines / SOTA,XAI Sufficiently Evaluated,Limitations Explicitly Acknowledged
+Hayashi 2024,2024,"Modeling Synchronization for Detecting Collaborative Learning Process Using a Pedagogical Conversational Agent: Investigation Using Recurrent Indicators of Gaze, Language, and Facial Expression",Japan,International Journal of Artificial Intelligence in Education,"Not applicable.
+
+No deep learning model was developed.
+
+Study focused on multimodal synchronization indicators.","No external dataset used.
+
+Custom experimental multimodal dataset collected during collaborative learning sessions.","Gaze tracking
+Audio / Speech
+Text transcripts
+Facial expressions
+Emotional states (FaceReader output)",Yes,No,Yes,Yes,Partial,Partial,Yes,Partial,Not Reported,Yes
+Liu 2021,2021,Facial expression recognition method with multi-label distribution learning for non-verbal behavior understanding in the classroom,China.,"Infrared Physics & Technology, Volume 112, Article 103594.",CDLLNet (Cauchy Distribution Label Learning Network),"Oulu-CASIA NIR Database
+CK+ (Extended Cohn-Kanade Dataset)","Near Infrared (NIR) facial images
+RGB facial images
+Facial video sequences",Not Evaluated,No,Yes,Yes,Partial,Partial,Yes,Yes,Partial,Partial
+Kumar 2022,2023,Multilayer Neural Network Based Speech Emotion Recognition for Smart Assistance,"India / Saudi Arabia (Author affiliations)
+","Computers, Materials & Continua",CNN / RNN / LSTM / Bi-LSTM / GRU / CNN-LSTM / CNN-GRU / Transformer / ViT / Hybrid -> Other: ANN / MLP (Multilayer Perceptron),"RAVDESS, TIMIT Corpus, Emo-DB",Audio,Yes,Yes,Yes,Partial,Partial,Partial,Partial,Partial,No,Partial
+Kratzwald 2018,2018,Deep learning for affective computing: Text-based emotion recognition in decision support.,"Switzerland, 
+Japan.",Decision Support Systems (Preprint).,RNN / LSTM / BiLSTM.,"Alm (2008) Literary Tales
+Election Tweets Dataset
+ISEAR Dataset
+SemEval-2007 Headlines Dataset
+SemEval-2018 General Tweets Dataset
+Facebook Posts Dataset",Text only,No,No,Yes,Yes,Partial,Yes,Yes,Yes,No,Yes
+Sethi 2022,2022,PSU-CNN: Prediction of student understanding in the classroom through student facial images using convolutional neural network,India (Data collected from Shoolini University),Materials Today: Proceedings,CNN,Custom (Shoolini University Student Facial Dataset),Static image,Yes,No,Yes,Yes,Partial,Partial,Partial,Partial,No,Partial
+Radharani 2026,2026,CSBAM-MobileNet: A lightweight attention-enhanced deep learning model for student attentiveness classification,"India (Authors affiliated with Vignan’s Foundation for Science, Technology and Research, Guntur, Andhra Pradesh)","Engineering Science and Technology, an International Journal",CNN / Hybrid (MobileNet + Attention),"Spontaneous Classroom Expressions Dataset (Custom), DAiSEE, RAF-DB, FER-2013
+
+",Facial video / Static image,Yes,No,Yes,Yes,Partial,Yes,Partial,Yes,No,Partial
+Al-Asadi 2024,2024,A robust semi-supervised deep learning approach for emotion recognition using EEG signals,Iran (authors' affiliation); dataset collected internationally (DEAP dataset),International Journal of Machine Learning and Cybernetics,CNN-based EEGNet,DEAP (Database for Emotion Analysis using Physiological Signals),EEG signals (32-channel physiological signals),No,No,Yes,Yes,Partial,Partial,Partial,Partial,No,Yes
+Kumar 2025,2025,Advanced Optimal Cross-Modal Fusion Mechanism for Audio-Video Based Artificial Emotion Recognition,"India (Central University of Tamil Nadu)
+",Informatica,"Hybrid (2D-CNN for Audio, 3D-CNN for Video)
+",MU-MOSEI,Multimodal (Facial video / Audio),No,No,Yes,Yes,Partial,Partial,Yes,Partial,No,Yes
+Arsirii 2023,2023,Pseudo-labeling of transfer learning convolutional neural network data for human facial emotion recognition,Ukraine (Based on author affiliations),Herald of Advanced Information Technology,CNN,"RAF-DB (Primary target), ImageNet (Pre-training), DISFA, CelebA, AffectNet (Mentioned as examples of flawed popular datasets)",Static image,Not Evaluated,No,Yes,Yes,Partial,Partial,Yes,Partial,Not Reported,Partial
+Evangeline 2024,2024,Facial Emotion Recognition of Online Learners Using a Hybrid Deep Learning Model,India,International Journal of Intelligent Engineering and Systems,Hybrid InceptionV3,OLSFED (Online Learning Spontaneous Facial Expression Database),Facial Images,Yes,No,Yes,Yes,Partial,Partial,Partial,Partial,No,Partial
+Bandyopadhyay 2024,2024,Emotion detection for online recommender system using deep learning: a proposed method,"India (authors' institutions located in West Bengal, India)",Innovations in Systems and Software Engineering (Springer),CNN,Kaggle Facial Expression Recognition Dataset (FER2013 challenge dataset),Static facial images,Yes,No,Yes,Partial,Partial,Partial,No,No,Not Reported,Partial
+Boopalan 2025,2025,"Advanced Facial Emotion Recognition Using DCNN-ELM: A Comprehensive Approach to Preprocessing, Feature Extraction and Performance Evaluation","India (Multiple institutions: Vel Tech, MM Engineering College, GMR Institute, etc.)",Journal of Computer Science,Hybrid (CNN-ELM),CK+ (Extended Cohn-Kanade),Static image,Yes,No,Yes,Yes,Partial,Yes,Partial,Partial,Not Reported,Partial
+ElKabtane 2026,2026,Toward emotionally intelligent e-learning: Real-time engagement detection through fine-tuned deep facial emotion recognition,Morocco (Authors affiliated with Cadi Ayyad University and Sultan Moulay Slimane University),Journal of the Franklin Institute,CNN,"CK+ (Cohn-Kanade+), Custom (909 images for face detection benchmark, Spontaneous learner engagement videos)",Facial video / Static image,Yes,Yes,Yes,Yes,Partial,Partial,Partial,Partial,No,Yes
+Aly 2025,2025,Revolutionizing online education: Advanced facial expression recognition for real‑time student progress tracking via deep learning model,Egypt (Author affiliation: Egyptian Russian University),Multimedia Tools and Applications (Springer),Hybrid CNN-TCN with Attention,"RAF-DB, FER2013, KDEF, and CK+",Static images and sequential facial videos/frames (Note: Audio was available in select sets but explicitly not used).,Yes,No,Yes,Yes,Partial,Partial,Partial,Partial,Not Reported,Yes
+Arsirii 2023,2023,An adaptive convolutional neural network model for human facial expression recognition,Ukraine (Based on author affiliations),Herald of Advanced Information Technology,CNN,"DISFA, CelebA, Bosphorus, ImageNet (for pre-training)",Static image / Facial video frames,Not Evaluated,No,Yes,Yes,Partial,Partial,Yes,Yes,Not Reported,Partial
+Bashir 2025,2025,Detection of Students’ Emotions in an Online Learning Environment Using a CNN-LSTM Model,"Nigeria (Bayero University, Kano, Nigeria)","Engineering Proceedings (Eng. Proc.), MDPI; Presented at the 5th International Electronic Conference on Applied Sciences (ASEC 2024)",CNN-LSTM Hybrid,"FER2013, CK+, JAFFE (combined and relabeled)",Static facial images,Yes,No,Yes,Yes,Partial,Partial,Yes,Partial,No,Partial
+Bi 2022,2022,Dynamic Transfer Exemplar based Facial Emotion Recognition Model Toward Online Video,"China (Changshu Institute of Technology), UK (University of Leicester)","ACM Transactions on Multimedia Computing, Communications, and Applications (ACM TOMM)",Hybrid (CNN + Exemplar-based Clustering/Transfer Learning),"BAUM-1s, Extended Cohn-Kanade (CK+)", Facial video / Static image sequences,Yes,Yes,Yes,Yes,Partial,Partial,Partial,Yes,Partial,Partial
+Lofandri 2024,2024,Students Emotion and Distraction Detection While Adopting E-Learning Approach,Indonesia / Saudi Arabia (Authors' affiliations),International Journal of Interactive Mobile Technologies (iJIM),CNN (Combined with Haar Cascade Classifier),"FER-2013
+",Static image (Facial),Yes,No,Partial,No,No,Partial,No,No,Not Reported,No
+Long 2022,2022,A Facial Expression Recognition Model using Lightweight Dense-Connectivity Neural Networks for Monitoring Online Learning Activities,Vietnam (Hanoi Open University),International Journal of Modern Education and Computer Science (IJMECS),CNN (Dense-connectivity / DenseNet variant),"CK+, JAFFE, OuluCASIA, CJO (Custom mixed dataset)
+","Static image (Facial)
+",Yes,No,Yes,Yes,Partial,Yes,Partial,Yes,No,Partial
+Manu 2026,2026,"Development and Evaluation of a Real-Time Emotion Detection System to Enhance Student Interaction
+
+","Indonesia (Citra Bangsa University, State University of Malang)
+",Journal of Educators Online,"CNN
+"," AffectNet, FER2013, Custom (school-based facial expression dataset)
+",Facial video (Webcam stream),Yes,No,Yes,Yes,Partial,Partial,Yes,No,No,Yes
+IEEEComputerSociety 2021,2021,Lightweight and Interpretable Detection of Affective Engagement for Online Learners.,"Not explicitly stated for the dataset collection in this paper. Authors are affiliated with Athabasca University, Canada","2021 IEEE International Conference on Dependable, Autonomic and Secure Computing, International Conference on Pervasive Intelligence and Computing, International Conference on Cloud and Big Data Computing, and International Conference on Cyber Science and Technology Congress","Two architectures were investigated:
+
+Traditional CNN
+SqueezeNet CNN",OL-SFED (Online Learning Spontaneous Facial Expression Database).,"Facial expression images
+Webcam video recordings",Yes,No,Yes,Yes,Partial,Yes,Yes,Partial,Yes,Yes
+Long 2021,2021,A Facial Expressions Recognition Method Using Residual Network Architecture for Online Learning Evaluation,Vietnam (Hanoi Open University),"Journal of Advanced Computational Intelligence and Intelligent Informatics (JACIII)
+","CNN (Residual Network / ResNet variant)
+","CK+, Oulu-CASIA, JAFFE, FERS21 (Custom)",Static image (Facial),Yes,No,Yes,Yes,Partial,Yes,Partial,Yes,No,Partial
+Wang 2024,2024,YOLOv5 based student engagement and emotional states detection in e-classes,Malaysia / China (Authors affiliated with UCSI University Malaysia and Yuncheng University China; Survey conducted in higher vocational colleges/universities).,"Journal of Robotics, Networking and Artificial Life
+
+", CNN / YOLO (One-stage object detector adapted for classification/detection),"FER2013, Custom (Self-constructed student facial expression dataset)",Static image (Frames extracted from classroom videos + public dataset images),Yes,No,Yes,Yes,Partial,Partial,Partial,Partial,No,Partial
+Benisha 2023,2023,Human Facial Emotion Recognition using Deep Neural Networks,India (SSN College of Engineering),The International Arab Journal of Information Technology,CNN,"CK+, JAFFE",Static image,Not Evaluated,No,Yes,Yes,Partial,Partial,Partial,Yes,Not Reported,Partial
+Zang 2025,2025,Leveraging BiLSTM-CRF and adversarial training for sentiment analysis in nature-based digital interventions: Enhancing mental well-being through MOOC platforms,China (Author affiliated with Shandong Women’s University),Digital Health,RNN / Bi-LSTM / Hybrid (BiLSTM-CRF + Transformer-based WoBert),"SemEval-2014 Task 10, Coursera Dataset (Custom/Extracted)
+
+",Text,No,No,Yes,Yes,Partial,Partial,Yes,Yes,No,Yes
+Asaju 2022,2022,Adaptive Reasoning: An Affect Related Feedback Approach for Enhanced E-Learning,"South Africa (University of the Witwatersrand, University of Johannesburg)","SACAIR 2022 (Southern African Conference for Artificial Intelligence Research), Lecture Notes in Computer Science (CCIS 1734)",CNN-BiLSTM / Hybrid,"DAiSEE (Primary), DISFA+ (Mapping validation), ImageNet (Implicit for ResNet pre-training)",Facial video,No,No,Yes,Yes,Partial,Partial,Yes,Yes,Partial,No
+Ashwin 2020,2020,Automatic detection of students' affective states in classroom environment using hybrid convolutional neural networks,India (National Institute of Technology Karnataka Surathkal),Education and Information Technologies,CNN / Hybrid,"Custom (Dataset-1 and Dataset-2), ImageNet (for pre-training/classroom subset test)",Static image (Intra-image multimodality: Facial expressions + Hand gestures + Body postures),Not Evaluated,Yes,Yes,Yes,Partial,Partial,Yes,Yes,Not Reported,Partial
+Chen 2022,2022,Toward children's empathy ability analysis: Joint facial expression recognition and intensity estimation using label distribution learning,China (Authors affiliated with Central China Normal University and Harbin Institute of Technology Shenzhen),IEEE Transactions on Industrial Informatics,CNN / Hybrid (Siamese-like CNN),"CK+, Oulu-CASIA, MMI, Custom (Child Empathy dataset)",Facial video / Static image (frames extracted from sequences),No,No,Yes,Yes,Partial,Partial,Yes,Yes,No,Yes
+Banerjee 2026,2026,ExpressNet-MoE: A Hybrid CNN-Based Mixture of Experts Architecture for Facial Emotion Recognition,"USA (University of Colorado Denver), though datasets are multinational/public.",Machine Learning with Applications (Elsevier),Hybrid CNN + Transfer Learning + Mixture of Experts (MoE),"AffectNet7, AffectNet8, RAF-DB, FER-2013",Static facial images,Not Evaluated,No,Yes,Yes,Yes,Partial,Yes,Yes,Not Reported,Yes
+Bala 2023,2023,Implementation of an adaptive E-learning platform with facial emotion recognition,"India (Institute of Aeronautical Engineering, Hyderabad; PVP Siddhartha Institute of Technology, Vijayawada)",Microsystem Technologies,CNN,FER2013,Static image,Yes,No,Yes,Partial,Partial,Partial,No,Partial,Not Reported,No
+Mohana 2025,2025,XAI-DSCSA: explainable-AI-based deep semi-supervised convolutional sparse autoencoder for facial expression recognition,India / UK (Authors' affiliations),"Signal, Image and Video Processing",Hybrid (CNN-Autoencoder),"CK+ (Extended Cohn-Kanade), JAFFE (Japanese Female Facial Expression)",Static image,No,Yes,Yes,Yes,Partial,Partial,Yes,Partial,Partial,Partial
+Gupta 2023,2023,A multimodal facial cues based engagement detection system in e-learning context using deep learning approach,"India (Thapar Institute of Engineering and Technology, Punjab, India)",Multimedia Tools and Applications (Springer),Multimodal framework combining CNN-based facial emotion recognition with facial landmark-based eye and head analysis,"WIDER Face, FER-2013, CK+, Own Dataset","Facial images, facial expressions, webcam video streams",Yes,No,Yes,Yes,Partial,Yes,Yes,Yes,No,Yes
+Wang 2025,2025,A lightweight teaching assessment framework using facial expression recognition for online courses,China (Authors affiliated with South China Agricultural University),Applied Sciences,"ViT / Hybrid (MobileViT variant)
+","FER2013, RAF-DB, RAFD, SCAUOL (Self-built)","Static image (Extracted frames from video streams)
+
+",Yes,Yes,Yes,Yes,Yes,Yes,Partial,Yes,Partial,Yes
+Liu 2025,2025,Leveraging Eye Movement for Instructing Robust Video-Based Facial Expression Recognition,"China / Australia (China University of Geosciences, Central China Normal University, Chinese Academy of Sciences, La Trobe University)","IEEE Transactions on Affective Computing
+
+",Transformer / ViT / Hybrid,"EMER (Custom), DFEW, MAFW, Aff-wild2, CASME III, CASME II
+",Multimodal (Facial video + Eye-tracking signals / Eye fixation maps for EMER; Facial video only for downstream),No,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Partial
+IEEE 2025,2025,Facial Emotion Recognition for Online Classrooms using Lightweight Transfer Learning.,Malaysia,Proceedings of the 3rd International Conference on Inventive Computing and Informatics (ICICI-2025).,CNN (Transfer Learning).,EMOTIC Dataset,Static facial images.,Yes,No,Yes,Yes,Partial,Partial,Yes,Partial,No,Yes
+Awais 2021,2021,LSTM-Based Emotion Detection Using Physiological Signals: IoT Framework for Healthcare and Distance Learning in COVID-19,"United Kingdom, Pakistan, Brazil, Portugal (Based on author affiliations)",IEEE Internet of Things Journal,RNN / LSTM,"Custom (Referenced as ""a novel physiological sensors-based data set"" from Sharma et al. 2019)","Multimodal (Physiological signals: RSP, GSR, ECG, EMG, SKT, BVP)",Yes,Yes,Yes,Yes,Partial,Partial,Yes,Partial,Not Reported,Yes
+Long 2023,2023,Efficient Multi-Task CNN for Face and Facial Expression Recognition Using Residual and Dense Architectures for Application in Monitoring Online Learning,Vietnam (Hanoi Open University),"International Journal of Fuzzy Logic and Intelligent Systems (IJFIS)
+",CNN (Hybrid Residual + Dense-connected / Multi-task CNN)," JAFFE, CK+, OuluCASIA, KDEF, HOUS22 (Custom)
+",Static image (Facial),Yes,No,Yes,Yes,Partial,Yes,Partial,Yes,No,Partial
+Maddu 2024,2024,Online learners’ engagement detection via facial emotion recognition in online learning context using hybrid classification model,"India (Annamalai University)
+",Social Network Analysis and Mining,"Hybrid (CNN + DBN)
+"," CK+, FER-2013
+",Static image,No,Yes,Yes,Partial,Partial,Partial,Yes,Yes,No,Partial
+Abdellaoui 2024,2024,Emotion Detection and Student Engagement in Distance Learning During Containment Due to the COVID-19,Morocco,Baghdad Science Journal,CNN,Custom private dataset,"Facial video frames, facial images",Not Evaluated,No,Yes,Yes,No,Partial,Partial,Partial,No,Yes
+Nandi 2021,2021,Real-time emotion classification using EEG data stream in e-learning contexts,"Spain (Authors affiliated with Universitat Politècnica de Catalunya, Eurecat, and Universitat Oberta de Catalunya). Dataset collected in Switzerland/Netherlands.","Sensors
+
+",N/A (Traditional ML / Linear Model),"DEAP (Database for Emotion Analysis using Physiological Signals)
+
+",EEG (32 channels) + Peripheral physiological signals + Video,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes
+IEEE 2023,2023,Lightweight Model for Emotion Detection from Facial Expression in Online Learning.,Canada,2023 IEEE Canadian Conference on Electrical and Computer Engineering (CCECE).,CNN-based lightweight transfer learning architecture.,Spontaneous Facial Expression Database for Academic Emotion Inference in Online Learning (OL-SFED).,"Facial images
+Facial videos (source recordings)",Yes,No,Yes,Yes,Partial,Partial,Yes,Yes,No,Yes
+Zhang 2024,2024,A novel deep learning model to improve the recognition of students' facial expressions in online learning environments,Hong Kong / China (Authors affiliated with the University of Hong Kong and Zhejiang University); Dataset from Gdansk University of Technology (Poland).,Knowledge Management & E-Learning: An International Journal (KM&EL),"CNN / Hybrid (DenseNet + Attention)
+","DevEmo dataset (Gdansk University of Technology)
+
+",Facial video / Static image (frames extracted at 15-frame intervals),No,No,Yes,Yes,Partial,Partial,Yes,Yes,No,Yes
+Moise 2024,2024,Towards integrating automatic emotion recognition in education: A deep learning model based on 5 EEG channels,Romania (Authors affiliated with Petroleum-Gas University of Ploiești),International Journal of Computational Intelligence Systems,"CNN (1D-CNN)
+",DEAP (Database for Emotion Analysis using Physiological Signals),"EEG (5 channels specifically selected: FP1, AF3, F7, T7, FP2)
+
+",Not Evaluated,No,Yes,Yes,Yes,Partial,Yes,Yes,Partial,Yes
+Gupta 2023,2023,Facial emotion recognition based real-time learner engagement detection system in online learning context using deep learning models,"India (Thapar Institute of Engineering and Technology, Patiala, India).",Multimedia Tools and Applications,CNN,"WIDER Face
+FER-2013
+CK+
+RAF-DB
+Own Dataset",Facial images / Facial video frames,Yes,No,Yes,Yes,Partial,Partial,Yes,Yes,No,Partial
+Jagadeesh 2022,2022,Facial expression recognition of online learners from real-time videos using a novel deep learning model.,India,Multimedia Systems (Springer).,Hybrid CNN-RNN.,"Custom real-time online learning video dataset.
+Bahcesehir University benchmark dataset:","Facial videos
+Video frames
+Facial expression images extracted from videos",Yes,No,Yes,Yes,Partial,Partial,Yes,Yes,No,Partial
+Lin 2020,2020,Continuous Facial Emotion Recognition Method Based on Deep Learning of Academic Emotions.,Taiwan,Sensors and Materials,Hybrid CNN-LSTM framework.,"FER2013
+RAVDESS (Ryerson Audio-Visual Database of Emotional Speech and Song)
+Academic Emotion Dataset collected using AEQ questionnaires","Facial images
+Video sequences
+Facial expression sequences
+Questionnaire responses (AEQ)",Yes,No,Yes,Yes,Partial,Yes,Partial,Partial,No,Yes
+Kabir 2024,2024,Emotion Detection from Facial Expression in Online Learning Through Using Synthetic Image Generation.,Canada,"HCII 2024, Lecture Notes in Artificial Intelligence (LNAI 14735), Springer Nature Switzerland.",CNN-based lightweight architecture using MobileNet.,"Spontaneous Facial Expression Database for Academic Emotion Inference in Online Learning (Bian et al., 2019).","Facial images
+Facial videos
+Webcam recordings",Yes,No,Yes,Yes,Partial,Yes,Yes,Yes,No,Yes
+Mai 2022,2022,Video-Based Emotion Recognition in the Wild for Online Education Systems,China (South China Normal University),"PRICAI 2022 (Pacific Rim International Conference on Artificial Intelligence), Springer LNCS",CNN-LSTM / Hybrid,"AFEW (Acted Facial Expressions in the Wild), DSEOLE (Dataset of Student Emotions in Online Learning Environments)
+",Facial video,Yes,No,Yes,Yes,Partial,Partial,Partial,Yes,No,Partial
+Bao 2024,2024,An Emotion Recognition Method Based on Eye Movement and Audiovisual Features in MOOC Learning Environment,China (data collection platform and affiliations suggest Chinese research context),IEEE Transactions on Computational Social Systems,CNN-based Multimodal Hybrid Network,Custom MOOC Emotion Dataset,Eye Movement + Audio + Video Images (Multimodal),No,No,Yes,Yes,Partial,Partial,Yes,Partial,No,Yes
+IEEE 2024,2024,Enhancing Real-time Student Emotion Recognition in Online Classrooms Using LSTM and CNN Hybrid Models.,Macau.,2024 Cross Strait Radio Science and Wireless Technology Conference (CSRSWTC 2024).,Hybrid CNN-LSTM.,Custom dataset collected from students using the Rain Classroom online learning platform.,Facial images / facial expression sequences.,Yes,Yes,Yes,Partial,No,No,Partial,No,No,No
+Aly 2025,2025,A comprehensive deep learning framework for real time emotion detection in online learning using hybrid models,Egypt (Egyptian Russian University) and Saudi Arabia (Shaqra University).,Scientific Reports (Nature Portfolio),Hybrid CNN + 3D-CNN + Evolutionary Optimization,"FER-2013, CK+ (Cohn-Kanade), KDEF, and an ""Own dataset"" (Real-world classroom dataset).",Static images & sequential facial video frames.,Yes,Yes,Yes,Yes,Partial,Yes,Partial,Partial,No,Yes
+Li 2025,2025,"Dense-Attention CNN with Spatial-Attention Fusion for Robust Facial Expression Recognition
+
+"," China (Xuzhou University of Technology, Xuzhou Public Security Bureau)",Information Technology and Control,CNN / Hybrid (Dense-Attention CNN),"CK+, FER2013","Static image (CK+ sourced from video sequences but treated as frames)
+",No,No,Yes,Yes,Partial,Partial,Partial,Partial,No,Yes
+Feng 2020,2020,Academic Emotion Classification and Recognition Method for Large-scale Online Learning Environment—Based on A-CNN and LSTM-ATT Deep Learning Pipeline Method,China (Tencent Classroom and China University MOOC platforms),International Journal of Environmental Research and Public Health (IJERPH),Hybrid CNN + BiLSTM + Attention pipeline,"Custom academic emotion corpus collected from Tencent Classroom, China University MOOC, and student blogs",Text comments (student textual comments),Not Evaluated,No,Yes,Yes,Partial,Partial,Partial,Partial,No,Yes
+Almogren 2026,2026,Deep Learning Approach for Social IoT and Mental Health Emotion Detection From Videos,Saudi Arabia (authors' affiliations),IEEE Transactions on Computational Social Systems,CNN-LSTM,RAVDESS (Ryerson Audio-Visual Database of Emotional Speech and Song),Video (facial expressions); audio available but not used,Yes,No,Yes,Yes,Partial,Partial,Yes,Yes,Yes,Yes
+Aly 2023,2023,Enhancing Facial Expression Recognition System in Online Learning Context Using Efficient Deep Learning Model,Egypt / Yemen (Based on author affiliations),IEEE Access,CNN / Hybrid (CNN + Attention),"RAF-DB, FER2013, CK+, KDEF",Static image,Yes,Yes,Yes,Yes,Partial,Partial,Partial,Yes,Not Reported,Partial
+Lawpanom 2024,2024,Advancing Facial Expression Recognition in Online Learning Education Using a Homogeneous Ensemble Convolutional Neural Network Approach,Thailand (Khon Kaen University),Applied Sciences,Hybrid (Homogeneous Ensemble of CNNs),FER2013,Static image,Not Evaluated,No,Yes,Yes,Partial,Yes,Partial,Yes,No,Yes
